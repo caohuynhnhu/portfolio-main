@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 17, 24, 39;
+  --background-rgb: 249, 250, 251;
+  --background: white;
+  --foreground: #333;
+}
+
+.dark {
+  --foreground-rgb: 249, 250, 251;
+  --background-rgb: 17, 24, 39;
+  --background: #1a1a1a;
+  --foreground: #fff;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+.vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #f3f4f6, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Dark mode styles for timeline */
+.dark .vertical-timeline-element-content {
+  background: #1f2937 !important;
+  color: #f9fafb !important;
+}
+
+.dark .vertical-timeline-element-content-arrow {
+  border-right: 7px solid #1f2937 !important;
+}
+
+.dark .vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #374151, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+.vertical-timeline::before {
+  background: #ddd !important;
+}
+
+/* Đảm bảo container có đủ width */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 1rem;
+}
