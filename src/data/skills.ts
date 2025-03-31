@@ -22,6 +22,12 @@ export const skillsData: SkillCategory[] = [
     category: "Tools",
     skills: [
       { name: "Git", icon: "/images/skills/git.svg" },
+    ]
+  }
+  ,
+  {
+    category: "Others",
+    skills: [
       { name: "HTML", icon: "/images/skills/html.svg" },
       { name: "CSS", icon: "/images/skills/css.svg" },
       //{ name: "Elasticsearch", icon: "/images/skills/elasticsearch.svg" }

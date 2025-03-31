@@ -24,9 +24,9 @@ export const personalInfo: PersonalInfo = {
   phone: "+84 354715794",
   location: "TP Ho Chi Minh, Viet Nam",
   bio: "I hope to become a talented and professional Quality Control (Senior) in the next year. With the knowledges and experiences in the old companies I hope to take more the challenges, advantages of the test skills. Handle the requirements at work well, from there, bring the best products to customers, contribute to the development of the company.",
-  profileImage: "images/profile.jpg",
+  profileImage: "images/avatar.jpg",
   socialLinks: {
-    github: "https://github.com/ttn0702",
+    github: "https://github.com/caohuynhnhu",
     linkedin: "https://www.linkedin.com/in/caohuynhnhu30597",
     twitter: "https://twitter.com/404"
   }
