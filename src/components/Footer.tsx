@@ -5,15 +5,15 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="bg-gray-900 text-white py-8">
+    <footer className="dark:bg-gray-900 text-white py-8">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <p className="text-lg font-semibold">{personalInfo.name}</p>
-            <p className="text-gray-400">{personalInfo.title}</p>
+            <p className="dark:text-gray-300 text-gray-700 text-lg font-semibold">{personalInfo.name}</p>
+            <p className="dark:text-gray-300 text-gray-700">{personalInfo.title}</p>
           </div>
           
-          <div className="flex items-center">
+          <div className="dark:text-gray-300 text-gray-700 flex items-center">
             <p>
               &copy; {currentYear} All Rights Reserved
             </p>
